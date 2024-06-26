@@ -3,17 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>Redirection Page</title>
     <script>
       function redirect() {
         var url =
           "https://www.dnata.com/en/global-network/united-arab-emirates#catering";
-        window.location.replace(url);
+        window.location.href = url;
       }
       window.onload = redirect;
     </script>
   </head>
   <body>
-    Something went wrong.
+    <p>
+      Redirecting to the new page. If you are not redirected automatically,
+      <a
+        href="https://www.dnata.com/en/global-network/united-arab-emirates#catering"
+        >click here</a
+      >.
+    </p>
   </body>
 </html>
